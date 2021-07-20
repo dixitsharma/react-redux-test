@@ -144,6 +144,7 @@ function App() {
               </TableBody>
             </Table>
           </TableContainer>
+		  {!cars.length && <label className={classes.margin}>No records found</label>}
         </CardContent>
       </Card>
     );
